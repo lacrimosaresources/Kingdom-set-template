@@ -1,0 +1,50 @@
+#lacrimosa04 { display: flex; flex-direction:column; margin: auto; width: var(--width); text-align: justify; font: 400 var(--fontSize) var(--fontBody); border: 1px solid var(--border); background: var(--bg01); }
+
+#lacrimosa04 br,
+#lacrimosa04 input { display: none; }
+
+.lacrimosa04010101 { display: flex; flex-direction: row; border-bottom: 1px solid var(--border); }
+
+.lacrimosa04010101 em { font-size: 2.5rem; display: flex; align-items: center; justify-content: center; padding: 10px; position: relative; border-right: 1px solid var(--border); line-height: 1; color: var(--accent); }
+
+.lacrimosa0401010101 { display: flex; flex-direction: column; text-transform: uppercase; font: 800 1.5rem / 100% var(--fontBody); padding: 10px; flex-grow: 1; justify-content: center; }
+
+.lacrimosa0401010101 span { font: 300 .6rem var(--fontMono); color: var(--accent); }
+
+.lacrimosa04010102 { column-count: 2; column-gap: 30px; column-rule: 1px dotted var(--accent); white-space: pre-wrap; font: 400 90% / 120% var(--fontBody); padding: 30px; border-bottom: 1px solid var(--border); }
+
+.lacrimosa0402 { display: flex; flex-wrap: wrap; gap: 10px; padding: 10px; }
+
+.lacrimosa0402 label { text-transform: uppercase; font: 600 70% var(--fontMono); color: var(--accent); flex: auto; display: flex; align-items: center; justify-content: center; border: 1px solid var(--border); padding: 3px; cursor: pointer; }
+
+#lacrimosa04 input:checked + label{ background:var(--accent); color:var(--bg01); }
+
+.lacrimosa0402 > div:not(.lacrimosa040201) { flex: 100%; margin-top: -10px; }
+
+.lacrimosa040201 { display: none; flex-direction: column; border: 1px solid var(--border); box-sizing: border-box; position: relative; width: 186px; }
+
+#all:checked ~ .lacrimosa040201{ display:flex; }
+
+#friend:checked ~ .lacrimosa040201.friend{ display:flex; }
+
+#love:checked ~ .lacrimosa040201.love{ display:flex; }
+
+#family:checked ~ .lacrimosa040201.family{ display:flex; }
+
+#enemy:checked ~ .lacrimosa040201.enemy{ display:flex; }
+
+.lacrimosa04020101 { display: flex; align-items: center; padding: 10px; position: absolute; z-index: 2; }
+
+.lacrimosa04020101 em { display: flex; align-items: center; justify-content: center; padding: 5px; font-size: 1rem; color: var(--accent); background: var(--bg01); border: 1px solid var(--border); }
+
+.lacrimosa040201 img { width: 100%; height: 184px; object-fit: cover; }
+
+.lacrimosa04020102 { display: flex; flex-direction: column; border-top: 1px solid var(--border); }
+
+.lacrimosa04020102 span { display: flex; align-items: center; gap: 5px; padding-right: 5px; border-bottom: 1px solid var(--border); font: 300 75% var(--fontMono); }
+
+.lacrimosa04020102 span:last-of-type { border: 0px; }
+
+.lacrimosa04020102 span  em { font-size: 1.1rem; color: var(--accent); display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--border); padding: 5px; }
+
+#lacrimosa04:after { content: "lacrimosa"; font: 600 70% var(--fontMono); text-transform: uppercase; border-top: 1px solid var(--border); padding: 5px; width: -webkit-fill-available; background: var(--bg01); z-index: 3; }
