@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css");
+
+#lacrimosa01 { display: flex; flex-wrap: wrap; margin: auto; width: var(--width); text-align: justify; font: 400 var(--fontSize) var(--fontBody); border: 1px solid var(--border); background: var(--bg01); }
+
+#lacrimosa01 br { display: none; }
+
+.lacrimosa0101 { display: flex; flex-direction: column; border-right: 1px solid var(--border); }
+
+.lacrimosa010101 { display: flex; align-items: center; justify-content: center; flex-direction: column; border-bottom: 1px solid var(--border); }
+
+.lacrimosa010102 { display: flex; flex-direction: column; }
+
+.lacrimosa010102 span { display: flex; align-items: center; gap: 5px; padding-right: 5px; border-bottom: 1px solid var(--border); font: 300 75% var(--fontMono); }
+
+.lacrimosa010102 span:last-of-type { border: 0px; }
+
+.lacrimosa010102 span em { font-size: 1.1rem; color: var(--accent); display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--border); padding: 5px; }
+
+.lacrimosa0102 { flex: calc(100% - 201px); padding: 30px 15px 30px 30px; box-sizing: border-box; }
+
+.lacrimosa010201 { white-space: pre-wrap; line-height: 110%; overflow: auto; height: 100%; padding-right: 15px; max-height: 233px; }
+
+#lacrimosa01 ::-webkit-scrollbar { border: 1px solid var(--border); width: 10px; height: 15px; background: var(--bg01); }
+
+#lacrimosa01 ::-webkit-scrollbar-corner { background: var(--bg01); outline: 1px solid var(--border); }
+
+#lacrimosa01 ::-webkit-scrollbar-thumb { background: var(--accent); border: 1px solid var(--border); outline: 1px solid var(--border); }
+
+#lacrimosa01:after { content: "lacrimosa"; font: 600 70% var(--fontMono); text-transform: uppercase; border-top: 1px solid var(--border); padding: 5px; width: -webkit-fill-available; background: var(--bg01); z-index: 3; }
