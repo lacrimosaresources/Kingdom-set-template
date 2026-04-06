@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css");
+
+
+#lacrimosa03 { display: flex; flex-wrap: wrap; border: 1px solid var(--border); width: var(--width); margin: auto; background: var(--bg01); font: 400 var(--fontSize) var(--fontBody); text-align: justify; }
+
+#lacrimosa03 br { display: none; }
+
+.lacrimosa0301 { display: flex; flex-direction: column; border-right: 1px solid var(--border); }
+
+.lacrimosa0301 > img { width: 150px; height: 100%; object-fit: cover; }
+
+.lacrimosa0302 { display: flex; flex-direction: column; flex: calc(100% - 151px); }
+
+.lacrimosa030202 { flex-grow: 1; padding: 30px; }
+
+.lacrimosa030201 { display: flex; flex-direction: row-reverse; border-bottom: 1px solid var(--border); }
+
+.lacrimosa030201 > em { font-size: 2.5rem; display: flex; align-items: center; justify-content: center; padding: 10px; position: relative; border-left: 1px solid var(--border); line-height: 1; color: var(--accent); }
+
+.lacrimosa03020101 { display: flex; flex-direction: column; text-transform: uppercase; font: 800 1.5rem / 80% var(--fontBody); padding: 10px; flex-grow: 1; justify-content: center; }
+
+.lacrimosa03020101 span { font: 300 .6rem var(--fontMono); color: var(--accent); }
+
+
+#lacrimosa03 ::-webkit-scrollbar { border: 1px solid var(--border); width: 10px; height: 15px; background: var(--bg01); }
+
+#lacrimosa03 ::-webkit-scrollbar-corner { background: var(--bg01); outline: 1px solid var(--border); }
+
+#lacrimosa03 ::-webkit-scrollbar-thumb { background: var(--accent); border: 1px solid var(--border); outline: 1px solid var(--border); }
+
+.lacrimosa030202 { flex-grow: 1; padding: 30px 15px 30px 30px; }
+
+.lacrimosa030202 > div { white-space: pre-wrap; line-height: 110%; overflow: auto; height: 100%; padding-right: 15px; max-height: 225px;  }
+
+.lacrimosa030203 { display: flex; flex-wrap: wrap; padding: 10px; gap: 10px; border-top: 1px solid var(--border); }
+
+.lacrimosa030203 span { border: 1px solid var(--border); flex: auto; padding-right: 5px; display: flex; align-items: center; }
+
+.lacrimosa030203 span em { font-size: 1.2rem; color: var(--accent); display: flex; align-items: center; justify-content: center; border-right: 1px solid var(--border); padding: 5px; margin-right: 5px; }
+
+#lacrimosa03:after { content: "lacrimosa"; font: 600 70% var(--fontMono); text-transform: uppercase; border-top: 1px solid var(--border); padding: 5px; width: -webkit-fill-available; background: var(--bg01); z-index: 3; }
